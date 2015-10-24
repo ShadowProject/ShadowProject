@@ -55,6 +55,16 @@ http://aboutshadow.com/index.php/bug-and-bounty-program
 
 ## Team
 
+tecnovert     | Core Developer, Cryptographer
+rynomster     | Dev Team Leader, Core Developer
+St3baS        | Core Developer
+ludx          | Shadow UI, SDK Developer
+crz           | Branding/Graphics, Shadow UI, UI/UX Designer, Core Developer
+ffmad         | Shadow UI, General Relations, ShadowTalk
+dasource      | Testing, Infrastructure
+SebSebastian  | Media Liaison/PR, Reddit
+TrollsRoyce   | Media Liaison/PR, Celebrity
+Edu           | Media Liaison/PR, Community Manager
 
 --------------------------------------------------
 
@@ -75,11 +85,21 @@ http://aboutshadow.com/index.php/bug-and-bounty-program
 * Reddit: http://reddit.com/r/shadowcash
 * Bitcointalk thread: https://bitcointalk.org/index.php?topic=745352
 
+### Whitepapers
+
+* Encrypted Messaging: http://www.shadow.cash/downloads/shadowcoin-p2p-em.pdf
+* ShadowSend v2: http://shadow.cash/downloads/shadowcash-anon.pdf
+
 ### Social
 
 * Twitter: https://twitter.com/sdcoin (community account: https://twitter.com/allaboutshadow)
 * Facebook: https://www.facebook.com/shadowcrypto
 * Google+: https://google.com/+ShadowCash-SDC
+
+### In the Press
+
+* The Race for a Decentralised Silk Road Is On: http://motherboard.vice.com/read/the-race-for-the-first-decentralised-silk-road-is-on (23/3 2015)
+* Shadowcash Hits Zero-Knowledge Jackpot with Casino-style Anonymity: https://www.deepdotweb.com/2015/01/28/shadowcash-zero-knowledge-anonymity/ (28/1 2015)
 
 
 --------------------------------------------------
@@ -90,6 +110,17 @@ http://aboutshadow.com/index.php/bug-and-bounty-program
 --------------------------------------------------
 
 ## FAQ
+
+* ?
+
+### Tutorials (are these still valid?)
+
+* Tutorials on ShadowTalk: https://shadowtalk.org/category/20/tutorials
+
+(are these still valid?):
+
+* Using Lite Mode: https://bitcointalk.org/index.php?topic=745352.msg8849212#msg8849212
+* ShadowGo on iOS: http://shadowtalk.org/topic/86/ios-shadowgo-installation-tutorial
 
 
 --------------------------------------------------
