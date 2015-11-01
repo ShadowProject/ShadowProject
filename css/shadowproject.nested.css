@@ -328,3 +328,58 @@ code, kbd, pre, samp {
   background: #e9eaea; }
 
 /*! ------ ShadowProject.io | Author @AllienWorks ------ */
+body {
+  background: #F7F7F9;
+  color: #1C1C21; }
+
+#header {
+  background: #fff;
+  background: -moz-linear-gradient(top, #fff 0%, #F7F7F9 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fff), color-stop(100%, #F7F7F9));
+  background: -webkit-linear-gradient(top, #fff 0%, #F7F7F9 100%);
+  background: -o-linear-gradient(top, #fff 0%, #F7F7F9 100%);
+  background: -ms-linear-gradient(top, #fff 0%, #F7F7F9 100%);
+  background: linear-gradient(to bottom, #fff 0%, #F7F7F9 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$top', endColorstr='$bottom',GradientType=0 );
+  border-bottom: 1px solid #DFDFE6;
+  padding: 3rem 0;
+  text-align: center; }
+  @media only screen and (min-width: 40.063rem) {
+    #header {
+      text-align: left; } }
+  #header .logo {
+    text-transform: uppercase; }
+    #header .logo h1 {
+      font-size: 1.3rem; }
+    #header .logo i.ico {
+      margin-right: 1rem;
+      color: #E2213D; }
+    #header .logo .red {
+      color: #E2213D; }
+    #header .logo .grey {
+      color: #BABAC7; }
+
+#content {
+  border-top: 1px solid #DFDFE6;
+  padding: 3rem 0; }
+  @media only screen and (min-width: 40.063rem) {
+    #content {
+      border: 0;
+      border-left: 1px solid #DFDFE6;
+      padding: 3rem 0 3rem 7rem; } }
+
+#sidebar {
+  padding: 3rem 0; }
+  @media only screen and (min-width: 40.063rem) {
+    #sidebar {
+      padding: 3rem 4rem 3rem 0; } }
+
+#footer {
+  border-top: 1px solid #DFDFE6;
+  padding: 1rem 0;
+  text-align: center; }
+  @media only screen and (min-width: 40.063rem) {
+    #footer {
+      text-align: left; }
+      #footer .links {
+        text-align: right; } }

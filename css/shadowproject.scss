@@ -2,3 +2,68 @@
 @import "cryptocoins.css";
 
 /*! ------ ShadowProject.io | Author @AllienWorks ------ */
+
+$red: #E2213D; // Shadow crimson red
+$black: #1C1C21; // texts..
+$grey: #BABAC7; // bullets, small print
+$lightgrey: #DFDFE6; // lines, dividers..
+$bg: #F7F7F9; // white
+
+
+// ------ GENERAL STYLES ------ //
+
+body {
+  background: $bg;
+  color: $black;
+}
+
+
+
+// ------ LAYOUT ------ //
+
+#header {
+  @include gradient(#fff, $bg); border-bottom: 1px solid $lightgrey;
+  padding: 3rem 0;
+  text-align: center;
+  @include respond-to(medium) {
+    text-align: left;
+  }
+  .logo {
+    text-transform: uppercase;
+    h1 { font-size: 1.3rem; }
+    i.ico { margin-right: 1rem; color: $red; }
+    .red { color: $red; }
+    .grey { color: $grey; }
+  }
+}
+
+
+#content {
+  border-top: 1px solid $lightgrey;
+  padding: 3rem 0;
+  @include respond-to(medium) {
+    border: 0; border-left: 1px solid $lightgrey;
+    padding: 3rem 0 3rem 7rem;
+  }
+}
+
+
+#sidebar {
+  padding: 3rem 0;
+  @include respond-to(medium) {
+    padding: 3rem 4rem 3rem 0;
+  }
+}
+
+
+#footer {
+  border-top: 1px solid $lightgrey;
+  padding: 1rem 0;
+  text-align: center;
+  @include respond-to(medium) {
+    text-align: left;
+    .links { text-align: right; }
+  }
+}
+
+// ------ UI & HELPER ------ //
