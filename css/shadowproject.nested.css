@@ -244,11 +244,11 @@ iframe {
   -webkit-transform: scale(1.1);
   transform: scale(1.1); }
 
-.clearfix::before, ul.block-grid-3::before, .clearfix::after, ul.block-grid-3::after {
+.clearfix::before, ul.block-grid-3::before, .box.wallet::before, .clearfix::after, ul.block-grid-3::after, .box.wallet::after {
   content: "";
   display: table; }
 
-.clearfix::after, ul.block-grid-3::after {
+.clearfix::after, ul.block-grid-3::after, .box.wallet::after {
   clear: both; }
 
 .show-grid {
@@ -364,6 +364,10 @@ h3 {
   font-size: 1.3rem;
   margin-top: 3rem; }
 
+h4 {
+  font-size: 1.15rem;
+  margin-top: 2rem; }
+
 a {
   font-family: "OpenSansBold", sans-serif;
   color: #1C1C21;
@@ -372,7 +376,10 @@ a {
     border-bottom: 1px solid #E2213D;
     color: black; }
 
-b, strong {
+p {
+  margin: 0 0 1.5rem; }
+
+b, strong, p.lead {
   font-family: "OpenSansBold", sans-serif; }
 
 em {
@@ -382,7 +389,7 @@ pre {
   white-space: pre-line; }
 
 #content ul {
-  margin: 0;
+  margin: 0 0 1.5rem;
   padding: 0;
   list-style: none; }
   #content ul li {
@@ -413,8 +420,10 @@ pre {
   #header .logo {
     text-transform: uppercase; }
     #header .logo h1 {
-      font-size: 1.7rem; }
+      font-size: 1.7rem;
+      margin: 0; }
       #header .logo h1 a {
+        font-family: "LatoHeavy", sans-serif;
         color: #1C1C21;
         border: none; }
       #header .logo h1 i.ico {
@@ -484,6 +493,23 @@ pre {
   margin: 0.5rem 0; }
   .box.wallet {
     text-align: center; }
+    .box.wallet .button {
+      color: #1C1C21;
+      width: 100%;
+      float: left;
+      margin: 0 0 -0.5rem;
+      background: none;
+      border-top: 1px solid #dadae3;
+      border-bottom-color: #d4d4df; }
+      .box.wallet .button:hover {
+        background: #E2213D;
+        color: #fff;
+        border-bottom-color: #740f1e; }
+      .box.wallet .button.split {
+        width: 50%;
+        border-right: 1px solid #dadae3; }
+        .box.wallet .button.split:last-child {
+          border-right: 0; }
 
 #content ul.block-grid-3 {
   margin-left: -0.7rem;
