@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+<g id="Layer_1_1_" display="none">
+	<g display="inline">
+		<line fill="none" stroke="#A9CCDB" stroke-width="0.25" stroke-miterlimit="10" x1="0.001" y1="-0.001" x2="100" y2="-0.001"/>
+		<line fill="none" stroke="#A9CCDB" stroke-width="0.25" stroke-miterlimit="10" x1="0.001" y1="9.999" x2="100" y2="9.999"/>
+		<line fill="none" stroke="#A9CCDB" stroke-width="0.25" stroke-miterlimit="10" x1="0.001" y1="19.999" x2="100" y2="19.999"/>
+		<line fill="none" stroke="#A9CCDB" stroke-width="0.25" stroke-miterlimit="10" x1="0.001" y1="29.999" x2="100" y2="29.999"/>
+		<line fill="none" stroke="#A9CCDB" stroke-width="0.25" stroke-miterlimit="10" x1="0.001" y1="39.999" x2="100" y2="39.999"/>
+		<line fill="none" stroke="#A9CCDB" stroke-width="0.25" stroke-miterlimit="10" x1="0.001" y1="49.999" x2="100" y2="49.999"/>
+		<line fill="none" stroke="#A9CCDB" stroke-width="0.25" stroke-miterlimit="10" x1="0.001" y1="59.998" x2="100" y2="59.998"/>
+		<line fill="none" stroke="#A9CCDB" stroke-width="0.25" stroke-miterlimit="10" x1="0.001" y1="69.998" x2="100" y2="69.998"/>
+		<line fill="none" stroke="#FF0000" stroke-width="0.25" stroke-miterlimit="10" x1="0.001" y1="80" x2="100" y2="80"/>
+		<line fill="none" stroke="#A9CCDB" stroke-width="0.25" stroke-miterlimit="10" x1="0.001" y1="90" x2="100" y2="90"/>
+		<line fill="none" stroke="#A9CCDB" stroke-width="0.25" stroke-miterlimit="10" x1="0" y1="-0.001" x2="0" y2="100"/>
+		<line fill="none" stroke="#A9CCDB" stroke-width="0.25" stroke-miterlimit="10" x1="10" y1="-0.001" x2="10" y2="100"/>
+		<line fill="none" stroke="#A9CCDB" stroke-width="0.25" stroke-miterlimit="10" x1="20.001" y1="-0.001" x2="20.001" y2="100"/>
+		<line fill="none" stroke="#A9CCDB" stroke-width="0.25" stroke-miterlimit="10" x1="30" y1="-0.001" x2="30" y2="100"/>
+		<line fill="none" stroke="#A9CCDB" stroke-width="0.25" stroke-miterlimit="10" x1="40" y1="-0.001" x2="40" y2="100"/>
+		<line fill="none" stroke="#A9CCDB" stroke-width="0.25" stroke-miterlimit="10" x1="50" y1="-0.001" x2="50" y2="100"/>
+		<line fill="none" stroke="#A9CCDB" stroke-width="0.25" stroke-miterlimit="10" x1="60" y1="-0.001" x2="60" y2="100"/>
+		<line fill="none" stroke="#A9CCDB" stroke-width="0.25" stroke-miterlimit="10" x1="70" y1="-0.001" x2="70" y2="100"/>
+		<line fill="none" stroke="#A9CCDB" stroke-width="0.25" stroke-miterlimit="10" x1="80" y1="-0.001" x2="80" y2="100"/>
+		<line fill="none" stroke="#A9CCDB" stroke-width="0.25" stroke-miterlimit="10" x1="90" y1="-0.001" x2="90" y2="100"/>
+		<text transform="matrix(1 0 0 1 5.2231 106.498)" font-family="'MyriadPro-Regular'" font-size="6">Hide these Guidelines before saving</text>
+		<text transform="matrix(1 0 0 1 -23.2769 81.166)" font-family="'MyriadPro-Regular'" font-size="6">Baseline</text>
+	</g>
+</g>
+<g>
+	<path fill="#231F20" d="M13.023,33.666c-3.196,0-5.782,2.589-5.782,5.78v24.058c0,3.19,2.586,5.779,5.782,5.779
+		c3.188,0,5.776-2.589,5.776-5.779V39.446C18.799,36.255,16.21,33.666,13.023,33.666z"/>
+	<path fill="#231F20" d="M86.978,33.666c-3.191,0-5.774,2.589-5.774,5.78v24.058c0,3.19,2.583,5.779,5.774,5.779
+		c3.195,0,5.781-2.589,5.781-5.779V39.446C92.759,36.255,90.173,33.666,86.978,33.666z"/>
+	<path fill="#231F20" d="M24.223,72.101c0,3.976,3.129,5.936,5.493,5.936c0.431,0,2.302,0,5.011,0v16.186
+		c0,3.19,2.589,5.779,5.782,5.779c3.19,0,5.782-2.589,5.782-5.779V78.036c2.497,0,5.073,0,7.566,0v16.186
+		c0,3.19,2.59,5.779,5.779,5.779c3.191,0,5.779-2.589,5.779-5.779V78.036c2.572,0,4.307,0,4.65,0c2.291,0,5.775-2.094,5.775-5.936
+		s0-37.198,0-37.198H24.184C24.184,34.902,24.223,69.116,24.223,72.101z"/>
+	<path fill="#231F20" d="M62.985,8.784l3.897-7.216c0.256-0.474,0.081-1.063-0.388-1.32c-0.479-0.25-1.065-0.078-1.322,0.395
+		l-3.934,7.289c-3.227-1.419-6.971-2.25-11.227-2.25c-4.218,0-7.937,0.83-11.144,2.238l-3.925-7.277
+		c-0.256-0.473-0.846-0.646-1.317-0.395c-0.473,0.256-0.648,0.846-0.393,1.32l3.889,7.21c-8.51,4.549-12.939,13.29-12.939,20.445
+		h51.657C75.841,21.991,71.46,13.316,62.985,8.784z M39.988,20.771c-1.582,0-2.865-1.286-2.865-2.862
+		c0-1.582,1.283-2.862,2.865-2.862c1.578,0,2.859,1.28,2.859,2.862C42.847,19.485,41.566,20.771,39.988,20.771z M60.013,20.771
+		c-1.579,0-2.859-1.286-2.859-2.862c0-1.582,1.28-2.862,2.859-2.862c1.58,0,2.861,1.28,2.861,2.862
+		C62.874,19.485,61.593,20.771,60.013,20.771z"/>
+</g>
+</svg>
