@@ -26,6 +26,22 @@ pre {
     white-space: pre-line;
 }
 
+// content styling
+#content {
+  ul {
+    margin: 0; padding: 0;
+    list-style: none;
+    li {
+      position: relative;
+      &::before {
+        content: "•";
+        position: absolute; left: -1.9rem;
+        color: $grey; font-size: 1.4rem;
+      }
+    }
+  }
+}
+
 // ------ LAYOUT ------ //
 
 #header {
@@ -83,7 +99,7 @@ pre {
 
 #footer {
   border-top: 1px solid $lightgrey;
-  padding: 1rem 0;
+  padding: 1rem 0 5rem;
   text-align: center; color: $grey;
   a {
     color: $grey;
@@ -98,6 +114,17 @@ pre {
 
 
 // ------ UI & HELPER ------ //
+
+.box {
+  background: #fff; box-shadow: 0 2px 4px rgba($grey, 0.4);
+  padding: 0.5rem 0;
+  &.wallet { text-align: center; }
+}
+
+#content ul.block-grid-3 {
+  margin-left: -$block-grid-spacing; margin-right: -$block-grid-spacing;
+  li::before { content: ""; }
+}
 
 // responsive video embeds from Youtube
 .video-container {
