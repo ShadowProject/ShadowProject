@@ -2,6 +2,8 @@
 
 The Shadow Project is an open source project aiming to be the core of privacy, where people will build decentralized application protecting people privacy.
 
+* [shadowproject.io](http://shadowproject.io)
+
 ----
 
 ## Info for contributors
@@ -13,3 +15,4 @@ The Shadow Project is an open source project aiming to be the core of privacy, w
 * open:graph sharing IMG
 * icons > SVG > webfont
 * ARIA markup (?)
+* use minified CSS on productions

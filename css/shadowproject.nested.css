@@ -443,6 +443,7 @@ table {
     text-transform: uppercase; }
     #header .logo .logotype {
       font-size: 1.7rem;
+      line-height: 1.6;
       margin: 0; }
       #header .logo .logotype a {
         font-family: "LatoHeavy", sans-serif;
