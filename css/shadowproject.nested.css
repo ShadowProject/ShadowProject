@@ -354,6 +354,12 @@ h1, h2, h3, h4, h5 {
   font-family: "LatoHeavy", sans-serif;
   font-weight: normal; }
 
+h1 {
+  font-size: 1.5rem;
+  color: #E2213D;
+  text-transform: uppercase;
+  margin-top: 0; }
+
 h2 {
   font-size: 1.5rem;
   color: #E2213D;
@@ -380,13 +386,29 @@ p {
   margin: 0 0 1.5rem; }
 
 b, strong, p.lead {
-  font-family: "OpenSansBold", sans-serif; }
+  font-family: "OpenSansBold", sans-serif;
+  font-weight: normal; }
 
 em {
-  font-family: "OpenSansItalic", sans-serif; }
+  font-family: "OpenSansItalic", sans-serif;
+  font-style: normal; }
 
 pre {
   white-space: pre-line; }
+
+table {
+  margin: 1.5rem 0 2.5rem; }
+  table tr th {
+    font-family: "OpenSansBold", sans-serif;
+    font-weight: normal; }
+  table tr th, table tr td {
+    padding: 0.5rem 0.7rem;
+    vertical-align: top;
+    border-bottom: 1px solid #DFDFE6; }
+  table tr:first-child th, table tr:first-child td {
+    border-top: 1px solid #DFDFE6; }
+  table tr:nth-child(2n+1) th, table tr:nth-child(2n+1) td {
+    background: #fcfcfd; }
 
 #content ul {
   margin: 0 0 1.5rem;
@@ -419,19 +441,19 @@ pre {
       text-align: left; } }
   #header .logo {
     text-transform: uppercase; }
-    #header .logo h1 {
+    #header .logo .logotype {
       font-size: 1.7rem;
       margin: 0; }
-      #header .logo h1 a {
+      #header .logo .logotype a {
         font-family: "LatoHeavy", sans-serif;
         color: #1C1C21;
         border: none; }
-      #header .logo h1 i.ico {
+      #header .logo .logotype i.ico {
         margin-right: 1rem;
         color: #E2213D; }
-      #header .logo h1 .red {
+      #header .logo .logotype .red {
         color: #E2213D; }
-      #header .logo h1 .grey {
+      #header .logo .logotype .grey {
         color: #BABAC7;
         font-family: "Lato", sans-serif; }
 
