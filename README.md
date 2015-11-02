@@ -16,3 +16,4 @@ The Shadow Project is an open source project aiming to be the core of privacy, w
 * icons > SVG > webfont
 * ARIA markup (?)
 * use minified CSS on productions
+* add Tutorials (?)
