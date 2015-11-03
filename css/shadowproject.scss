@@ -13,7 +13,7 @@ $bg: #F7F7F9; // white
 
 // ------ GENERAL STYLES ------ //
 
-html { font-size: 15px; } // global scaling
+html { font-size: 14px; } // global scaling
 
 body {
   background: $bg;
@@ -51,7 +51,11 @@ em { font-family: "OpenSansItalic", sans-serif; font-style: normal; }
 pre {
     white-space: pre-line;
 }
-
+code {
+  font-size: 0.9rem; color: #777;
+  background: #fff; border-radius: 3px;
+  padding: 0.1rem 0.5rem;
+}
 table {
   margin: 1.5rem 0 2.5rem;
   tr {
