@@ -12,8 +12,27 @@ The Shadow Project is an open source project aiming to be the core of privacy, w
 
 ## Todo
 
+### Markup
+
+* ARIA markup (?)
+* footer links: Contribute (Get Involved), Legal
+
+### Styling and Graphics
+
 * open:graph sharing IMG
 * icons > SVG > webfont
-* ARIA markup (?)
-* use minified CSS on productions
+* set base font-size: 14px (semibold looks awful on Win)
+* style <code>
+
+
+### Missing content
+
+* Get Involved: fill out Donation addresses
 * add Tutorials (?)
+* Press page
+
+
+### Other
+
+* use minified CSS on production
+
