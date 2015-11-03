@@ -30,6 +30,7 @@ The Shadow Project is an open source project aiming to be the core of privacy, w
 * Get Involved: fill out Donation addresses
 * add Tutorials (?)
 * Press page
+* Privacy
 
 
 ### Other
