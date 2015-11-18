@@ -12,6 +12,8 @@ The Shadow Project is an open source project aiming to be the core of privacy, w
 
 ## Todo
 
+* file clean-up after reorganization
+
 ### Markup
 
 * ARIA markup (?)

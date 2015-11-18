@@ -20,7 +20,6 @@
 				<li><a href="/">About</a></li>
 				<li><a class="active" href="getting-started">Getting started</a></li>
 				<li><a href="features">Features</a></li>
-				<li><a href="downloads">Downloads</a></li>
 				<li><a href="documentation">Documentation</a></li>
 				<li><a href="development">Development</a></li>
 				<li><a href="community">Community</a></li>
