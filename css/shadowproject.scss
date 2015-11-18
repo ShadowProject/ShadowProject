@@ -34,6 +34,7 @@ h2 {
   font-size: 1.5rem; color: $red; text-transform: uppercase;
   margin-top: 3rem;
   &:first-of-type { margin-top: 0; }
+  & + h3 { margin-top: 1rem; }
 }
 h3 { font-size: 1.3rem; margin-top: 3rem; }
 h4 { font-size: 1.15rem; margin-top: 2rem; }
@@ -175,6 +176,14 @@ table {
   &.wallet {
     @extend .clearfix;
     text-align: center;
+    .os {
+      font-family: "LatoHeavy"; font-weight: normal; font-size: 1.3rem;
+      margin: 1.7rem 0;
+      .ico {
+        width: 1.5rem; height: auto; margin-right: 0.7rem;
+        position: relative; top: 2px;
+      }
+    }
     .button {
       color: $black;
       width: 100%; float: left; margin: 0 0 -0.5rem;

@@ -36,7 +36,51 @@
 
 		<div id="content">
 
-			<h2>Getting Started</h2>
+      <h2>Download Wallet</h2>
+			<ul class="block-grid-3">
+				<li>
+					<div class="box wallet">
+						<div class="os"><img src="img/os-windows.svg" class="ico">Windows</div>
+						<a href="http://shadow.cash/downloads/latest/windows64" title="Download 64bit Win Wallet" class="split button">x64</a>
+						<a href="http://shadow.cash/downloads/latest/windows32" title="Download 32bit Win Wallet" class="split button">x32</a>
+					</div>
+				</li>
+				<li>
+					<div class="box wallet">
+						<div class="os"><img src="img/os-linux.svg" class="ico">Linux</div>
+						<a href="http://shadow.cash/downloads/latest/linux64" title="Download 64bit Linux Wallet" class="split button">x64</a>
+						<a href="http://shadow.cash/downloads/latest/linux32" title="Download 32bit Linux Wallet" class="split button">x32</a>
+					</div>
+				</li>
+				<li>
+					<div class="box wallet">
+						<div class="os"><img src="img/os-mac.svg" class="ico">MacOS X</div>
+						<a href="http://shadow.cash/downloads/latest/macosx" title="Download MacOS X Wallet" class="button">Download</a>
+					</div>
+				</li>
+			</ul>
+
+      <h2>Get ShadowCash</h2>
+      <h3>Exchanges</h3>
+      <p>
+        You can buy ShadowCash on following exchanges (<em>note</em> &ndash; SDC is also available on Cryptsy, but we advice against using it).
+      </p>
+			<ul>
+				<li><a href="https://bittrex.com/Market/Index?MarketName=BTC-SDC">Bittrex</a></li>
+				<li><a href="https://poloniex.com/exchange#btc_sdc">Poloniex</a></li>
+			</ul>
+			<p>
+				You can also pay with ShadowCash (SDC) anywhere Bitcoin (BTC) is accepted instantly with:
+			</p>
+			<ul>
+				<li><a href="https://shapeshift.io">ShapeShift</a></li>
+				<li><a href="https://coingateway.net">Coingateway</a></li>
+			</ul>
+
+      <h2>Guides &amp; Documentation</h2>
+      <p>
+        For guides and technical documentation please refer to <a href="http://doc.shadowproject.io/">doc.shadowproject.io</a>
+      </p>
 
 		</div><!-- #content -->
 

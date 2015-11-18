@@ -121,48 +121,7 @@
 			<p>
 				???
 			</p>
-
-			<hr><!-- ===================================================================== -->
-
-
-			<h2>Download Wallet</h2>
-			<ul class="block-grid-3">
-				<li>
-					<div class="box wallet">
-						<h4><img src="img/os-windows.svg" class="ico" style="width: 1rem; height: 1rem; margin-right: 0.6rem;">Windows</h4>
-						<a href="http://shadow.cash/downloads/latest/windows64" title="Download 64bit Win Wallet" class="split button">x64</a>
-						<a href="http://shadow.cash/downloads/latest/windows32" title="Download 32bit Win Wallet" class="split button">x32</a>
-					</div>
-				</li>
-				<li>
-					<div class="box wallet">
-						<h4><img src="img/os-linux.svg" class="ico" style="width: 1rem; height: 1rem; margin-right: 0.6rem;">Linux</h4>
-						<a href="http://shadow.cash/downloads/latest/linux64" title="Download 64bit Linux Wallet" class="split button">x64</a>
-						<a href="http://shadow.cash/downloads/latest/linux32" title="Download 32bit Linux Wallet" class="split button">x32</a>
-					</div>
-				</li>
-				<li>
-					<div class="box wallet">
-						<h4><img src="img/os-mac.svg" class="ico" style="width: 1rem; height: 1rem; margin-right: 0.6rem;">MacOS X</h4>
-						<a href="http://shadow.cash/downloads/latest/macosx" title="Download MacOS X Wallet" class="button">Download</a>
-					</div>
-				</li>
-			</ul>
-
-
-
-			<h3>Exchanges</h3>
-			<ul>
-				<li><a href="https://bittrex.com/Market/Index?MarketName=BTC-SDC">Bittrex</a></li>
-				<li><a href="https://poloniex.com/exchange#btc_sdc">Poloniex</a></li>
-			</ul>
-			<p>
-				You can also pay with ShadowCash (SDC) anywhere Bitcoin (BTC) is accepted instantly with:
-			</p>
-			<ul>
-				<li><a href="https://shapeshift.io">ShapeShift</a></li>
-				<li><a href="https://coingateway.net">Coingateway</a></li>
-			</ul>
+			
 		</div><!-- #content -->
 
 

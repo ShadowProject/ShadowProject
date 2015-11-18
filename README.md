@@ -21,6 +21,7 @@ The Shadow Project is an open source project aiming to be the core of privacy, w
 * open:graph sharing IMG
 * icons > SVG > webfont
 * blockquote styling
+* add at least some images of crz' kickass designs (?)
 
 
 ### Missing content
@@ -32,3 +33,4 @@ The Shadow Project is an open source project aiming to be the core of privacy, w
 ### Other
 
 * use minified CSS on production
+* print current version of wallet @ downloads
