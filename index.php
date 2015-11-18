@@ -1,35 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<?php include "_head.php" ?>
+
 	<title>Shadow Project</title>
-	<link href="favicon.ico" rel="icon" />
-	<!-- Open:Graph | http://ogp.me -->
 	<meta property="og:title" content="Shadow Project" />
 	<meta property="og:description" content="The Shadow Project is an open source project aiming to be the core of privacy, where people will build decentralized applications" />
-	<meta property="og:type" content="website" />
 	<meta property="og:url" content="http://shadowproject.io" />
-	<meta property="og:image" content="http://" />
-
-	<link rel="stylesheet" href="css/shadowproject.nested.css">
 </head>
 <body>
 
 
-<div id="header">
-	<div class="row">
-		<div class="column">
-			<div class="logo">
-				<h1 class="logotype"><a href="//shadowproject.io">
-					<i class="ico cc-SDC-alt"></i>Shadow<span class="red">Project</span><span class="grey">.io</span>
-				</a></h1>
-			</div>
-		</div>
-	</div>
-</div><!-- #header -->
-
+<?php include "_header.php" ?>
 
 
 <div class="row">
@@ -37,6 +16,20 @@
 
 
 		<div id="sidebar">
+			<ul class="nav">
+				<li><a class="active" href="/">Overview</a></li>
+				<li><a href="about">About</a></li>
+				<li><a href="features">Features</a></li>
+				<li><a href="downloads">Downloads</a></li>
+				<li><a href="documentation">Documentation</a></li>
+				<li><a href="development">Development</a></li>
+				<li><a href="community">Community</a></li>
+				<li><a href="faq">FAQ</a></li>
+				<li><a href="contact">Contact</a></li>
+			</ul>
+
+			<hr>
+
 			<ul class="nav">
 				<li><a class="active" href="/">Overview</a></li>
 				<li><a href="bug-bounties">Bug Bounties</a></li>
@@ -85,24 +78,6 @@
 				</li>
 			</ul>
 
-			<!--p>
-				<a href="http://shadow.cash/downloads/latest/windows64" class="button">
-					<img src="img/os-windows.svg" class="ico">Win <span>x64</span>
-				</a>
-				<a href="http://shadow.cash/downloads/latest/windows32" class="button">
-					<img src="img/os-windows.svg" class="ico">Win <span>x32</span>
-				</a>&emsp;
-				<a href="http://shadow.cash/downloads/latest/linux64" class="button">
-					<img src="img/os-linux.svg" class="ico">Linux <span>x64</span>
-				</a>
-				<a href="http://shadow.cash/downloads/latest/linux32" class="button">
-					<img src="img/os-linux.svg" class="ico">Linux <span>x32</span>
-				</a>&emsp;
-				<a href="http://shadow.cash/downloads/latest/macosx" class="button">
-					<img src="img/os-mac.svg" class="ico">MacOS X
-				</a>
-			</p-->
-
 			<h2>ShadowCash Specs.</h2>
 			<ul>
 				<li>Block time: 60 s</li>
@@ -139,27 +114,4 @@
 </div>
 
 
-
-<div id="footer">
-	<div class="row">
-		<div class="medium-5 columns">
-			<div class="copyright">
-				<p>&copy; 2015&ensp;<a href="http://shadowproject.io">shadowproject.io</a><p>
-			</div>
-		</div>
-		<div class="medium-7 columns">
-			<div class="links">
-				<p>
-					<a href="get-involved">Contribute</a>&emsp;&bull;&emsp;<a href="legal">Legal</a>&emsp;&bull;&emsp;<a href="privacy">Privacy</a>
-				</p>
-			</div>
-		</div>
-	</div>
-</div><!-- #footer -->
-
-
-
-	<script src="js/jquery-1.11.2.min.js"></script>
-	<script src="js/shadowproject.js"></script>
-</body>
-</html>
+<?php include "_footer.php" ?>
