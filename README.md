@@ -20,17 +20,15 @@ The Shadow Project is an open source project aiming to be the core of privacy, w
 
 * open:graph sharing IMG
 * icons > SVG > webfont
+* blockquote styling
 
 
 ### Missing content
 
-* add Tutorials (?)
-* Press page
-* Privacy
+* About > Roadmap
+* open:graph desc in head
 
 
 ### Other
 
 * use minified CSS on production
-
-ok

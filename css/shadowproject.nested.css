@@ -365,6 +365,8 @@ h2 {
   color: #E2213D;
   text-transform: uppercase;
   margin-top: 3rem; }
+  h2:first-of-type {
+    margin-top: 0; }
 
 h3 {
   font-size: 1.3rem;
