@@ -39,8 +39,14 @@
 
 			<h3>Whitepapers</h3>
 			<ul>
-				<li>??</li>
-				<li>??</li>
+				<li>
+					<a href="whitepapers/shadowcash-anon.pdf" target="_blank"><strong>ShadowSend v2</strong></a> (PDF)<br>
+					<em>Shadow: Zero-knowledge Anonymous Distributed Electronic Cash via Traceable Ring Signatures</em>
+				</li>
+				<li>
+					<a href="whitepapers/shadowcash-p2p-messaging.pdf" target="_blank"><strong>ShadowChat</strong></a> (PDF)<br>
+					<em>ShadowChat Secure Messaging: A P2P Encrypted Instant Messaging System</em>
+				</li>
 			</ul>
 
 			<h3>Guides &amp; Tutorials</h3>
