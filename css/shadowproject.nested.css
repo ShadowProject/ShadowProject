@@ -421,6 +421,10 @@ table {
   table tr:nth-child(2n+1) th, table tr:nth-child(2n+1) td {
     background: #fcfcfd; }
 
+abbr[title] {
+  text-decoration: none;
+  border-bottom: 1px dotted #999; }
+
 #content ul {
   margin: 0 0 1.5rem;
   padding: 0;
@@ -496,12 +500,12 @@ table {
       color: #1C1C21;
       line-height: 1.5;
       border: none; }
-      #sidebar ul.nav li a:hover {
-        color: #1C1C21; }
       #sidebar ul.nav li a.active {
         font-family: "LatoHeavy", sans-serif; }
-    #sidebar ul.nav:hover a {
+    #sidebar ul.nav:hover a:not(.active) {
       color: #6e6e82; }
+      #sidebar ul.nav:hover a:not(.active):hover {
+        color: #1C1C21; }
 
 #footer {
   border-top: 1px solid #DFDFE6;

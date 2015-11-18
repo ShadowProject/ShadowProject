@@ -75,6 +75,7 @@ table {
     }
   }
 }
+abbr[title] { text-decoration: none; border-bottom: 1px dotted #999; }
 
 // content styling
 #content {
@@ -140,12 +141,14 @@ table {
         font-family: "Lato", sans-serif; text-transform: uppercase;
         color: $black; line-height: 1.5;
         border: none;
-        &:hover { color: $black; }
         &.active { font-family: "LatoHeavy", sans-serif; }
       }
     }
     &:hover {
-      a { color: lighten($black, 35%); }
+      a:not(.active) {
+        color: lighten($black, 35%);
+        &:hover { color: $black; }
+      }
     }
   }
 }
