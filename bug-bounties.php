@@ -35,7 +35,7 @@
 
 
 		<div id="content">
-			<h1>Shadow Bug &amp; Bounty Program</h1>
+			<h2>Shadow Bug &amp; Bounty Program</h2>
 			<p>
 				According to <a href="http://en.wikipedia.org/wiki/Linus">Linus’ Law</a>, <em>“given enough eyeballs, all bugs are shallow”</em>. That’s one of the reasons why Shadow’s source code is publicly available; but merely making the source code available doesn’t accomplish anything if people don’t read it!
 			</p>

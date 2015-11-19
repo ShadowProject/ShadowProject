@@ -560,6 +560,14 @@ abbr[title] {
         .box.wallet .button.split:last-child {
           border-right: 0; }
 
+.label {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  background: #DFDFE6;
+  border-radius: 3px;
+  padding: 0.1rem 0.6rem;
+  margin: 0 0.5rem; }
+
 #content ul.block-grid-3 {
   margin-left: -0.7rem;
   margin-right: -0.7rem; }

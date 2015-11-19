@@ -21,8 +21,11 @@ The Shadow Project is an open source project aiming to be the core of privacy, w
 ### Styling and Graphics
 
 * open:graph sharing IMG
-* icons for social websites in footer (?) - fb, g+, yt, github
+* icons for social websites in footer (?)
 * icons > SVG > webfont
+  - SDC, BTC
+  - social: FB, TW, YT, G+, GH
+  - Win, Linux, Mac
 * blockquote styling
 * add at least some images of crz' kickass designs (?)
 
