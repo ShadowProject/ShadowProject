@@ -34,6 +34,7 @@ The Shadow Project is an open source project aiming to be the core of privacy, w
 
 * About > Roadmap
 * open:graph desc in head
+* Privacy
 
 
 ### Other
