@@ -27,6 +27,7 @@
 				<li><a href="faq">FAQ</a></li>
 				<li><a href="contact">Contact</a></li>
 			</ul>
+			<?php include "_sidebar.php" ?>
 		</div><!-- #sidebar -->
 
 
@@ -40,7 +41,7 @@
 			<p>
 				???
 			</p>
-			
+
       <h2>ShadowChat</h2>
 			<p>
 				ShadowChat is a <abbr title="peer-to-peer">P2P</abbr> Instant Messaging system utilizing state-of-the-art encryption technology to keep your communications private. All messages are encrypted by the proven <strong>AES-256-CBC algorithm</strong>, and distributed between nodes in such a way as to prevent the recipients of messages from being inferred by assailants utilizing sophisticated traffic analysis, even if the assailants can view the entire network and/or run nodes of the network.

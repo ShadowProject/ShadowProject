@@ -27,6 +27,7 @@
 				<li><a href="faq">FAQ</a></li>
 				<li><a href="contact">Contact</a></li>
 			</ul>
+			<?php include "_sidebar.php" ?>
 		</div><!-- #sidebar -->
 
 
@@ -35,7 +36,7 @@
 
 
 		<div id="content">
-			
+
       <h2>Development</h2>
 			<ul>
 				<li>Follow recent updates on <a href="blog.shadowproject.io">Shadow Blog</a></li>
@@ -74,8 +75,18 @@
 				We are a non-profit and Open Source software project and are trying to build a private economy. We appreciate all the help we can get in making this a reality. Both addresses are managed by Rynomster (lead developer). If applicable, please specify whether you want to remain anonymous. Many thanks to all our sponsors!
 			</p>
 			<ul>
-				<li>Official <strong>BTC</strong> donation address: <code>1GiosBkSpN8RS9pm1kgZU8AZUBEnLKYFem</code></li>
-				<li>Official <strong>SDC</strong> donation address: <code>SdcDevWEbq3CZgZc8UNbST1TaYLA5vLZTS</code></li>
+				<li>
+					Official <strong>BTC</strong> donation address:
+					<code>
+						<a href="bitcoin:1GiosBkSpN8RS9pm1kgZU8AZUBEnLKYFem&label=SDC%20Dev%20Fund" title="Donate BTC">1GiosBkSpN8RS9pm1kgZU8AZUBEnLKYFem</a>
+					</code>
+				</li>
+				<li>
+					Official <strong>SDC</strong> donation address:
+					<code>
+						<a href="shadowcoin:SdcDevWEbq3CZgZc8UNbST1TaYLA5vLZTS&label=SDC%20Dev%20Fund" title="Donate SDC">SdcDevWEbq3CZgZc8UNbST1TaYLA5vLZTS</a>
+					</code>
+				</li>
 			</ul>
 
 		</div><!-- #content -->

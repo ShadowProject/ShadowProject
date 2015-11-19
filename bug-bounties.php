@@ -27,6 +27,7 @@
 				<li><a href="faq">FAQ</a></li>
 				<li><a href="contact">Contact</a></li>
 			</ul>
+			<?php include "_sidebar.php" ?>
 		</div><!-- #sidebar -->
 
 
@@ -96,9 +97,9 @@
 					<td>‘Harmless’ bugs, e.g. cosmetic errors</td>
 				</tr>
 			</table>
-			<p>
+			<div class="message">
 				<em>Note</em> &mdash; Bounties will be paid out for bugs found in the <a href="https://github.com/ShadowProject/shadow/tree/master">master branch of the official GitHub repositories</a>.
-			</p>
+			</div>
 		</div><!-- #content -->
 
 

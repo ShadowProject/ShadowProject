@@ -27,6 +27,7 @@
 				<li><a class="active" href="faq">FAQ</a></li>
 				<li><a href="contact">Contact</a></li>
 			</ul>
+			<?php include "_sidebar.php" ?>
 		</div><!-- #sidebar -->
 
 
