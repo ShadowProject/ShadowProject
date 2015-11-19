@@ -22,6 +22,7 @@
 				<li><a class="active" href="features">Features</a></li>
 				<li><a href="documentation">Documentation</a></li>
 				<li><a href="development">Development</a></li>
+				<li><a href="bug-bounties">Bug Bounties</a></li>
 				<li><a href="community">Community</a></li>
 				<li><a href="faq">FAQ</a></li>
 				<li><a href="contact">Contact</a></li>
@@ -35,6 +36,11 @@
 
 		<div id="content">
 
+			<h2>ShadowSend</h2>
+			<p>
+				???
+			</p>
+			
       <h2>ShadowChat</h2>
 			<p>
 				ShadowChat is a <abbr title="peer-to-peer">P2P</abbr> Instant Messaging system utilizing state-of-the-art encryption technology to keep your communications private. All messages are encrypted by the proven <strong>AES-256-CBC algorithm</strong>, and distributed between nodes in such a way as to prevent the recipients of messages from being inferred by assailants utilizing sophisticated traffic analysis, even if the assailants can view the entire network and/or run nodes of the network.
