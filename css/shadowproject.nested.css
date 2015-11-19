@@ -236,7 +236,7 @@ iframe {
 .text-center {
   text-align: center; }
 
-.tfx, .button, button, a {
+.tfx, .button, button, form input, form textarea, a {
   -webkit-transition: all 0.3s;
   transition: all 0.3s; }
 
@@ -590,6 +590,26 @@ dl {
   margin-right: -0.7rem; }
   #content ul.block-grid-3 li::before {
     content: ""; }
+
+form input, form textarea {
+  border: 0;
+  border-bottom: 1px solid #DFDFE6;
+  border-radius: none;
+  padding: 1rem 1.3rem;
+  margin-bottom: 1rem; }
+  form input:hover, form textarea:hover {
+    border-color: #c2c2d0; }
+  form input:focus, form textarea:focus {
+    border-color: #E2213D; }
+
+form.contact {
+  width: 100%;
+  max-width: 34rem; }
+  form.contact .button[type="submit"] {
+    max-width: 13rem;
+    padding: 1.2rem 1rem 1rem;
+    margin-top: 1rem;
+    text-transform: uppercase; }
 
 .video-container {
   width: 100%;

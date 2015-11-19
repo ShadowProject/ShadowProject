@@ -226,6 +226,24 @@ dl {
   li::before { content: ""; }
 }
 
+// forms
+form {
+  input, textarea {
+    @extend .tfx;
+    border: 0; border-bottom: 1px solid $lightgrey; border-radius: none;
+    padding: 1rem 1.3rem; margin-bottom: 1rem;
+    &:hover { border-color: darken($lightgrey, 10%); }
+    &:focus { border-color: $red; }
+  }
+  &.contact {
+    width: 100%; max-width: 34rem;
+    .button[type="submit"] {
+      max-width: 13rem; padding: 1.2rem 1rem 1rem; margin-top: 1rem;
+      text-transform: uppercase;
+    }
+  }
+}
+
 // responsive video embeds from Youtube
 .video-container {
   width: 100%; height: 0; overflow: hidden;
