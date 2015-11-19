@@ -77,6 +77,12 @@ table {
 }
 abbr[title] { text-decoration: none; border-bottom: 1px dotted #999; }
 
+dl {
+  margin: 0 0 2.4rem;
+  dt { font-family: "OpenSansBold", sans-serif; text-transform: uppercase; margin-bottom: 0.3rem; }
+  dd { margin-left: 1.5rem; }
+}
+
 // content styling
 #content {
   ul {
@@ -200,6 +206,13 @@ abbr[title] { text-decoration: none; border-bottom: 1px dotted #999; }
       }
     }
   }
+}
+
+// general messages - info boxes, alerts, warnings etc..
+.message {
+  margin: 1.5rem 0 2rem; padding: 1rem 1.7rem;
+  background: #fff; box-shadow: 0 2px 4px rgba($grey, 0.4);
+  &.alert { border-right: 3px solid $red; }
 }
 
 .label {

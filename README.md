@@ -38,5 +38,6 @@ The Shadow Project is an open source project aiming to be the core of privacy, w
 
 ### Other
 
+* make headings/FAQs' titles #linkable
 * use minified CSS on production
 * print current version of wallet @ downloads
