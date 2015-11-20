@@ -6,5 +6,5 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<link href="favicon.ico" rel="icon" />
 	<meta property="og:type" content="website" />
-	<meta property="og:image" content="http://" />
+	<meta property="og:image" content="http://shadowproject.io/img/sdc-sharing_promo.png" />
 	<link rel="stylesheet" href="css/shadowproject.nested.css">

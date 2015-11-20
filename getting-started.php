@@ -2,7 +2,7 @@
 
 	<title>Getting Started &bull; Shadow Project</title>
 	<meta property="og:title" content="Getting Started &bull; Shadow Project" />
-	<meta property="og:description" content="???" />
+	<meta property="og:description" content="The Shadow Project is an open source project aiming to be the core of privacy, where people will build decentralized applications" />
 	<meta property="og:url" content="http://shadowproject.io/getting-started" />
 </head>
 <body>

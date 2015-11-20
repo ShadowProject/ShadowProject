@@ -2,7 +2,7 @@
 
 	<title>Bug Bounties &bull; Shadow Project</title>
 	<meta property="og:title" content="Bug Bounties &bull; Shadow Project" />
-	<meta property="og:description" content="???" />
+	<meta property="og:description" content="According to Linus’ Law, “given enough eyeballs, all bugs are shallow”." />
 	<meta property="og:url" content="http://shadowproject.io/bug-bounties" />
 </head>
 <body>

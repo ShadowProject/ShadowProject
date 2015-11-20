@@ -2,7 +2,7 @@
 
 	<title>Development &bull; Shadow Project</title>
 	<meta property="og:title" content="Development &bull; Shadow Project" />
-	<meta property="og:description" content="???" />
+	<meta property="og:description" content="Shadow is an Open Source project which is created almost entirely by volunteers. There are lots of ways you can get involved and help the project grow and improve." />
 	<meta property="og:url" content="http://shadowproject.io/development" />
 </head>
 <body>
