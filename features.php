@@ -17,7 +17,7 @@
 
 		<div id="sidebar">
 			<ul class="nav">
-				<li><a href="/">About</a></li>
+				<li><a href="introduction">Introduction</a></li>
 				<li><a href="getting-started">Getting started</a></li>
 				<li><a class="active" href="features">Features</a></li>
 				<li><a href="documentation">Documentation</a></li>

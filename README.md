@@ -10,9 +10,11 @@ The Shadow Project is an open source project aiming to be the core of privacy, w
 
 * Built with Sass = don't edit CSS files directly! Edit SCSS files and compile them to CSS (use Gulp, Grunt, node-sass, Koala App, Prepros or whatever :)
 
+----
+
 ## Todo
 
-* file clean-up after reorganization
+* tweak responsivity
 
 ### Markup
 
@@ -32,7 +34,7 @@ The Shadow Project is an open source project aiming to be the core of privacy, w
 
 ### Missing content
 
-* About > Roadmap
+* Index > Roadmap
 * open:graph desc in head
 * Privacy
 
