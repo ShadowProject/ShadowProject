@@ -46,19 +46,19 @@
 
 			<h2>ShadowCash Specs.</h2>
 			<ul>
-				<li>Block time: 60 s</li>
-				<li>Difficulty re-target: every block</li>
-				<li>Nominal stake interest: 2% annually</li>
-				<li>Min. stake age: 8 hours (no max age)</li>
+				<li>Block time: <strong>60 s</strong></li>
+				<li>Difficulty re-target: <strong>every block</strong></li>
+				<li>Nominal stake interest: <strong>2%</strong> annually</li>
+				<li>Min. stake age: <strong>8 hours</strong> (no max age)</li>
 				<li>P2P port: 51737</li>
 				<li>RPC port: 51736</li>
 			</ul>
 
 			<h3>Transactions</h3>
 			<ul>
-				<li>Min. Free: 0.0001 SDC</li>
-				<li>Confirmations: 10</li>
-				<li>Maturity: 500</li>
+				<li>Min. Free: <strong>0.0001 SDC</strong></li>
+				<li>Confirmations: <strong>10</strong></li>
+				<li>Maturity: <strong>500</strong></li>
 			</ul>
 
 			<h2>Roadmap</h2>

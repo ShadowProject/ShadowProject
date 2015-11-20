@@ -8,7 +8,7 @@
 		<div class="medium-7 columns">
 			<div class="links">
 				<p>
-					<a href="development">Contribute</a>&emsp;&bull;&emsp;<a href="legal">Legal</a>&emsp;&bull;&emsp;<a href="privacy">Privacy</a>
+					<a href="development">Contribute</a>&emsp;&bull;&emsp;<a href="legal">Legal</a><!--&emsp;&bull;&emsp;<a href="privacy">Privacy</a-->
 				</p>
 			</div>
 		</div>

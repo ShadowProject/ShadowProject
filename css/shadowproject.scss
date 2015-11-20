@@ -58,6 +58,11 @@ code {
   background: #fff; border-radius: 3px;
   padding: 0.1rem 0.5rem;
 }
+blockquote {
+  font-family: "OpenSansItalic", sans-serif; color: lighten($black, 30%);
+  margin: 1.7rem 0px 1.7rem 1rem; padding-left: 2rem;
+  border-left: 2px solid $lightgrey;
+}
 table {
   margin: 1.5rem 0 2.5rem;
   tr {
