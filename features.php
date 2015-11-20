@@ -39,22 +39,27 @@
 
 			<h2>ShadowSend</h2>
 			<p>
-				ShadowSend’s anonymous cryptographic transaction protocol uses dual-key stealth addresses, traceable ring signatures layered with non­interactive zero knowledge proofs (<a href="http://www.slideshare.net/shadowcash/presentation3-43827434">presentation of the anonymous cryptographic transaction protocol</a> which utilizes the above mentioned cryptographic principles). We explain how Shadow introduces a much higher level of privacy and anonymity to the network while still preserving the core principles of trustless decentralization, unforgeability and double­spend prevention. We also presented performance data of our scheme including proof sizes, signature generation times and verification times in our <a href="whitepapers/shadowcash-anon.pdf">ShadowSend Whitepaper</a>.
+				ShadowSend’s <strong>anonymous cryptographic transaction protocol</strong> uses dual-key stealth addresses, traceable ring signatures layered with non­interactive zero knowledge proofs (<a href="http://www.slideshare.net/shadowcash/presentation3-43827434">presentation of the anonymous cryptographic transaction protocol</a> which utilizes the above mentioned cryptographic principles). We explain how Shadow introduces a much higher level of privacy and anonymity to the network while still preserving the core principles of trustless decentralization, unforgeability and double­spend prevention. We also presented performance data of our scheme including proof sizes, signature generation times and verification times in our <a href="whitepapers/shadowcash-anon.pdf">ShadowSend Whitepaper</a>.
 			</p>
-			<p>
-				A <a href="http://i.imgur.com/2XTQhYF.jpg">detailed diagram</a> is also available.
-			</p>
+			<ul>
+				<li>
+					<a href="http://i.imgur.com/2XTQhYF.jpg">ShadowSend diagram</a>
+				</li>
+			</ul>
+			<div class="message">
+				Read more &mdash; <a href="http://doc.shadowproject.io/#shadowsend-v2-0">ShadowSend in Project Docs</a>
+			</div>
 
       <h2>ShadowChat</h2>
 			<p>
-				ShadowChat is a <abbr title="peer-to-peer">P2P</abbr> Instant Messaging system utilizing state-of-the-art encryption technology to keep your communications private. All messages are encrypted by the proven <strong>AES-256-CBC algorithm</strong>, and distributed between nodes in such a way as to prevent the recipients of messages from being inferred by assailants utilizing sophisticated traffic analysis, even if the assailants can view the entire network and/or run nodes of the network.
+				ShadowChat is a <abbr title="peer-to-peer">P2P</abbr> <strong>Instant Messaging system</strong> utilizing state-of-the-art encryption technology to keep your communications private. All messages are encrypted by the proven <strong>AES-256-CBC algorithm</strong>, and distributed between nodes in such a way as to prevent the recipients of messages from being inferred by assailants utilizing sophisticated traffic analysis, even if the assailants can view the entire network and/or run nodes of the network.
 			</p>
 			<p>
 				To eliminate the risk and hassle of sharing passwords, we utilize the proven and trusted method of <strong>Elliptic Curve Diffie-Hellman (ECDH) key exchange</strong>. The Elliptic Curve Digital Signature Algorithm (ECDSA) is used to give you confidence that the messages you received came from the original recipient and remained untouched in propagation. Messages are distributed over the preexisting Shadow P2P network, and a copy of each encrypted message is stored on each node for a period of 48 hours.
 			</p>
-			<p>
-				More info on ShadowChat at <a href="http://doc.shadowproject.io/#encrypted-messaging">doc.shadowproject.io/#encrypted-messaging</a>
-			</p>
+			<div class="message">
+				Read more &mdash; <a href="http://doc.shadowproject.io/#encrypted-messaging">ShadowChat in Project Docs</a>
+			</div>
 
 			<h2>ShadowMarket</h2>
 
