@@ -99,6 +99,22 @@
 				</tr>
 			</table>
 
+			<h2>Shadow in the Press</h2>
+			<ul>
+				<li>
+					<a href="http://bravenewcoin.com/news/german-youth-is-arrested-for-darkweb-trades-while-decentralised-markets-come-online/">German youth is arrested for darkweb trades, while decentralised markets come online</a><br>
+					<em>&mdash; Brave New Coin</em> <small>(10 November 2015)</small>
+				</li>
+				<li>
+					<a href="http://motherboard.vice.com/read/the-race-for-the-first-decentralised-silk-road-is-on">The Race for a Decentralised Silk Road Is On</a><br>
+					<em>&mdash; Motherboard VICE</em> <small>(23 March 2015)</small>
+				</li>
+				<li>
+					<a href="https://www.deepdotweb.com/2015/01/28/shadowcash-zero-knowledge-anonymity/">Shadowcash Hits Zero-Knowledge Jackpot with Casino-style Anonymity</a><br>
+					<em>&mdash; DeepDotWeb</em> <small>(28 January 2015)</small>
+				</li>
+			</ul>
+
 		</div><!-- #content -->
 
 
