@@ -39,7 +39,10 @@
 
 			<h2>ShadowSend</h2>
 			<p>
-				???
+				ShadowSend’s anonymous cryptographic transaction protocol uses dual-key stealth addresses, traceable ring signatures layered with non­interactive zero knowledge proofs (<a href="http://www.slideshare.net/shadowcash/presentation3-43827434">presentation of the anonymous cryptographic transaction protocol</a> which utilizes the above mentioned cryptographic principles). We explain how Shadow introduces a much higher level of privacy and anonymity to the network while still preserving the core principles of trustless decentralization, unforgeability and double­spend prevention. We also presented performance data of our scheme including proof sizes, signature generation times and verification times in our <a href="whitepapers/shadowcash-anon.pdf">ShadowSend Whitepaper</a>.
+			</p>
+			<p>
+				A <a href="http://i.imgur.com/2XTQhYF.jpg">detailed diagram</a> is also available.
 			</p>
 
       <h2>ShadowChat</h2>
