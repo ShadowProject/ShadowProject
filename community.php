@@ -37,6 +37,9 @@
 
 		<div id="content">
 			<h2>Community</h2>
+			<div class="message">
+				Get in touch with the community and devs on our <a href="http://shadowtalk.org">ShadowTalk forums</a>!
+			</div>
 			<h3>Websites</h3>
 			<ul>
 				<li>
