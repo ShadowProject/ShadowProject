@@ -134,6 +134,8 @@ dl {
     border: 0; border-left: 1px solid $lightgrey;
     padding: 4rem 0 5.5rem 7rem;
   }
+  // Single-column pages (KTHXBYE page for contact form)
+  &.single-column { border: 0; padding-left: 0; }
 }
 
 
@@ -280,7 +282,7 @@ form {
 .button, button {
   border-radius: 0; background: $red; border-bottom: 3px solid darken($red, 15%);
   margin-bottom: 1rem;
-  font-family: "LatoHeavy"; font-weight: normal;
+  font-family: "LatoHeavy"; font-weight: normal; text-transform: uppercase;
   span { font-family: "Lato"; font-weight: normal; }
   .ico {
     margin-right: 0.4rem; font-size: 1rem; line-height: 1;
@@ -292,10 +294,13 @@ form {
   // variants
   &.secondary {
     background: $lightgrey; border-color: darken($lightgrey, 15%);
+    &:hover {
+      background: darken($lightgrey, 7%); border-color: darken($lightgrey, 25%);
+    }
   }
   // sizes
   &.small {
-    padding: 0.4rem 1rem;
-    font-size: 0.8rem; text-transform: uppercase;
+    padding: 0.7rem 1.4rem 0.5rem;
+    font-size: 0.95rem;
   }
 }

@@ -41,10 +41,11 @@
 				Get in touch with the team:
 			</p>
 
-			<form class="contact">
+			<form method="post" action="submit.php" class="contact">
 				<textarea name="message" rows="8" placeholder="Your message"></textarea>
 				<input type="text" name="name" value="" placeholder="Name">
 				<input type="email" name="email" value="" placeholder="Email">
+				<input class="hide" type="url" name="url" value="" placeholder="Leave this empty">
 				<input type="submit" class="button" name="send" value="Send message">
 			</form>
 
