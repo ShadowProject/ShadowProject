@@ -22,6 +22,7 @@
 				<li><a href="features">Features</a></li>
 				<li><a href="documentation">Documentation</a></li>
 				<li><a class="active" href="development">Development</a></li>
+				<li><a href="roadmap">Roadmap</a></li>
 				<li><a href="bug-bounties">Bug Bounties</a></li>
 				<li><a href="community">Community</a></li>
 				<li><a href="faq">FAQ</a></li>

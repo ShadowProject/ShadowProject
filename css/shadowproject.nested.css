@@ -415,7 +415,8 @@ blockquote {
   border-left: 2px solid #DFDFE6; }
 
 table {
-  margin: 1.5rem 0 2.5rem; }
+  margin: 1.5rem 0 2.5rem;
+  width: 100%; }
   table tr th {
     font-family: "OpenSansBold", sans-serif;
     font-weight: normal; }

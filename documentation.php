@@ -22,6 +22,7 @@
 				<li><a href="features">Features</a></li>
 				<li><a class="active" href="documentation">Documentation</a></li>
 				<li><a href="development">Development</a></li>
+				<li><a href="roadmap">Roadmap</a></li>
 				<li><a href="bug-bounties">Bug Bounties</a></li>
 				<li><a href="community">Community</a></li>
 				<li><a href="faq">FAQ</a></li>
@@ -52,9 +53,9 @@
 			</ul>
 
 			<h3>Guides &amp; Tutorials</h3>
-			<p>
-        For guides and technical documentation please refer to <a href="http://doc.shadowproject.io/">doc.shadowproject.io</a>
-      </p>
+			<div class="message">
+				For guides and technical documentation please refer to <a href="http://doc.shadowproject.io/">doc.shadowproject.io</a>
+			</div>
 
 		</div><!-- #content -->
 

@@ -30,12 +30,12 @@ The Shadow Project is an open source project aiming to be the core of privacy, w
   - SDC, BTC
   - social: FB, TW, YT, G+, GH
   - Win, Linux, Mac
+  - TBD, in progress, done (for roadmaps)
 * add at least some images of crz' kickass designs (?)
 
 
 ### Missing content
 
-* Index > Roadmap
 * Privacy
 
 
