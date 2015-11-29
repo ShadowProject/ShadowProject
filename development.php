@@ -1,35 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<title>Get Involved &bull; Shadow Project</title>
-	<link href="favicon.ico" rel="icon" />
-	<!-- Open:Graph | http://ogp.me -->
-	<meta property="og:title" content="Get Involved &bull; Shadow Project" />
-	<meta property="og:description" content="The Shadow Project is an open source project aiming to be the core of privacy, where people will build decentralized applications" />
-	<meta property="og:type" content="website" />
-	<meta property="og:url" content="http://shadowproject.io/get-involved" />
-	<meta property="og:image" content="http://" />
+<?php include "_head.php" ?>
 
-	<link rel="stylesheet" href="css/shadowproject.nested.css">
+	<title>Development &bull; Shadow Project</title>
+	<meta property="og:title" content="Development &bull; Shadow Project" />
+	<meta property="og:description" content="Shadow is an Open Source project which is created almost entirely by volunteers. There are lots of ways you can get involved and help the project grow and improve." />
+	<meta property="og:url" content="http://shadowproject.io/development" />
 </head>
 <body>
 
 
-<div id="header">
-	<div class="row">
-		<div class="column">
-			<div class="logo">
-				<span class="logotype"><a href="//shadowproject.io">
-					<i class="ico cc-SDC-alt"></i>Shadow<span class="red">Project</span><span class="grey">.io</span>
-				</a></span>
-			</div>
-		</div>
-	</div>
-</div><!-- #header -->
-
+<?php include "_header.php" ?>
 
 
 <div class="row">
@@ -38,14 +17,18 @@
 
 		<div id="sidebar">
 			<ul class="nav">
-				<li><a href="/">Overview</a></li>
+				<li><a href="introduction">Introduction</a></li>
+				<li><a href="getting-started">Getting started</a></li>
+				<li><a href="features">Features</a></li>
+				<li><a href="documentation">Documentation</a></li>
+				<li><a class="active" href="development">Development</a></li>
+				<li><a href="roadmap">Roadmap</a></li>
 				<li><a href="bug-bounties">Bug Bounties</a></li>
-				<li><a href="links">Links</a></li>
+				<li><a href="community">Community</a></li>
 				<li><a href="faq">FAQ</a></li>
-				<li><a href="team">Team</a></li>
-				<li><a class="active" href="get-involved">Get Involved</a></li>
-				<li><a href="https://github.com/ShadowProject/shadow/commits/master">GitHub Commits</a></li>
+				<li><a href="contact">Contact</a></li>
 			</ul>
+			<?php include "_sidebar.php" ?>
 		</div><!-- #sidebar -->
 
 
@@ -54,7 +37,14 @@
 
 
 		<div id="content">
-			<h1>Get Involved</h1>
+
+      <h2>Development</h2>
+			<ul>
+				<li>Follow recent updates on <a href="blog.shadowproject.io">Shadow Blog</a></li>
+				<li>See latest commits on <a href="https://github.com/shadowproject">github.com/ShadowProject</a></li>
+			</ul>
+
+			<h2>Get Involved</h2>
 			<p>
 				Shadow is an Open Source project which is created almost entirely by volunteers. There are lots of ways you can get involved and help the project grow and improve. Here are some ways for you to get started!
 			</p>
@@ -86,8 +76,18 @@
 				We are a non-profit and Open Source software project and are trying to build a private economy. We appreciate all the help we can get in making this a reality. Both addresses are managed by Rynomster (lead developer). If applicable, please specify whether you want to remain anonymous. Many thanks to all our sponsors!
 			</p>
 			<ul>
-				<li>Official <strong>BTC</strong> donation address: <code>1GiosBkSpN8RS9pm1kgZU8AZUBEnLKYFem</code></li>
-				<li>Official <strong>SDC</strong> donation address: <code>SdcDevWEbq3CZgZc8UNbST1TaYLA5vLZTS</code></li>
+				<li>
+					Official <strong>BTC</strong> donation address:
+					<code>
+						<a href="bitcoin:1GiosBkSpN8RS9pm1kgZU8AZUBEnLKYFem&label=SDC%20Dev%20Fund" title="Donate BTC">1GiosBkSpN8RS9pm1kgZU8AZUBEnLKYFem</a>
+					</code>
+				</li>
+				<li>
+					Official <strong>SDC</strong> donation address:
+					<code>
+						<a href="shadowcoin:SdcDevWEbq3CZgZc8UNbST1TaYLA5vLZTS&label=SDC%20Dev%20Fund" title="Donate SDC">SdcDevWEbq3CZgZc8UNbST1TaYLA5vLZTS</a>
+					</code>
+				</li>
 			</ul>
 
 		</div><!-- #content -->
@@ -97,27 +97,4 @@
 </div>
 
 
-
-<div id="footer">
-	<div class="row">
-		<div class="medium-5 columns">
-			<div class="copyright">
-				<p>&copy; 2015&ensp;<a href="http://shadowproject.io">shadowproject.io</a><p>
-			</div>
-		</div>
-		<div class="medium-7 columns">
-			<div class="links">
-				<p>
-					<a href="get-involved">Contribute</a>&emsp;&bull;&emsp;<a href="legal">Legal</a>&emsp;&bull;&emsp;<a href="privacy">Privacy</a>
-				</p>
-			</div>
-		</div>
-	</div>
-</div><!-- #footer -->
-
-
-
-	<script src="js/jquery-1.11.2.min.js"></script>
-	<script src="js/shadowproject.js"></script>
-</body>
-</html>
+<?php include "_footer.php" ?>

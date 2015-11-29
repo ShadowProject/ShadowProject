@@ -10,7 +10,14 @@ The Shadow Project is an open source project aiming to be the core of privacy, w
 
 * Built with Sass = don't edit CSS files directly! Edit SCSS files and compile them to CSS (use Gulp, Grunt, node-sass, Koala App, Prepros or whatever :)
 
+----
+
 ## Todo
+
+* tweak responsivity
+* contact form ([this one implemented](https://github.com/nfriedly/spam-free-php-contact-form))
+  - edit email in submit.php:7
+* switch YouTube video embed for self-hosted via VideoJS
 
 ### Markup
 
@@ -18,19 +25,22 @@ The Shadow Project is an open source project aiming to be the core of privacy, w
 
 ### Styling and Graphics
 
-* open:graph sharing IMG
+* icons for social websites in footer (?)
 * icons > SVG > webfont
+  - SDC, BTC
+  - social: FB, TW, YT, G+, GH
+  - Win, Linux, Mac
+  - TBD, in progress, done (for roadmaps)
+* add at least some images of crz' kickass designs (?)
 
 
 ### Missing content
 
-* add Tutorials (?)
-* Press page
 * Privacy
 
 
 ### Other
 
+* make headings/FAQs' titles #linkable
 * use minified CSS on production
-
-ok
+* print current version of wallet @ downloads

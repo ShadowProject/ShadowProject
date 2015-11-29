@@ -1,0 +1,94 @@
+<?php include "_head.php" ?>
+
+	<title>Features &bull; Shadow Project</title>
+	<meta property="og:title" content="Features &bull; Shadow Project" />
+	<meta property="og:description" content="The Shadow Project is an open source project aiming to be the core of privacy, where people will build decentralized applications" />
+	<meta property="og:url" content="http://shadowproject.io/features" />
+</head>
+<body>
+
+
+<?php include "_header.php" ?>
+
+
+<div class="row">
+	<div class="medium-4 large-3 columns">
+
+
+		<div id="sidebar">
+			<ul class="nav">
+				<li><a href="introduction">Introduction</a></li>
+				<li><a href="getting-started">Getting started</a></li>
+				<li><a class="active" href="features">Features</a></li>
+				<li><a href="documentation">Documentation</a></li>
+				<li><a href="development">Development</a></li>
+				<li><a href="roadmap">Roadmap</a></li>
+				<li><a href="bug-bounties">Bug Bounties</a></li>
+				<li><a href="community">Community</a></li>
+				<li><a href="faq">FAQ</a></li>
+				<li><a href="contact">Contact</a></li>
+			</ul>
+			<?php include "_sidebar.php" ?>
+		</div><!-- #sidebar -->
+
+
+	</div>
+	<div class="medium-8 large-9 columns">
+
+
+		<div id="content">
+
+			<h2>ShadowSend</h2>
+			<p>
+				ShadowSend’s <strong>anonymous cryptographic transaction protocol</strong> uses dual-key stealth addresses, traceable ring signatures layered with non­interactive zero knowledge proofs (<a href="http://www.slideshare.net/shadowcash/presentation3-43827434">presentation of the anonymous cryptographic transaction protocol</a> which utilizes the above mentioned cryptographic principles). We explain how Shadow introduces a much higher level of privacy and anonymity to the network while still preserving the core principles of trustless decentralization, unforgeability and double­spend prevention. We also presented performance data of our scheme including proof sizes, signature generation times and verification times in our <a href="whitepapers/shadowcash-anon.pdf">ShadowSend Whitepaper</a>.
+			</p>
+			<ul>
+				<li>
+					<a href="http://i.imgur.com/2XTQhYF.jpg">ShadowSend diagram</a>
+				</li>
+			</ul>
+			<div class="message">
+				Read more &mdash; <a href="http://doc.shadowproject.io/#shadowsend-v2-0">ShadowSend in Project Docs</a>
+			</div>
+
+      <h2>ShadowChat</h2>
+			<p>
+				ShadowChat is a <abbr title="peer-to-peer">P2P</abbr> <strong>Instant Messaging system</strong> utilizing state-of-the-art encryption technology to keep your communications private. All messages are encrypted by the proven <strong>AES-256-CBC algorithm</strong>, and distributed between nodes in such a way as to prevent the recipients of messages from being inferred by assailants utilizing sophisticated traffic analysis, even if the assailants can view the entire network and/or run nodes of the network.
+			</p>
+			<p>
+				To eliminate the risk and hassle of sharing passwords, we utilize the proven and trusted method of <strong>Elliptic Curve Diffie-Hellman (ECDH) key exchange</strong>. The Elliptic Curve Digital Signature Algorithm (ECDSA) is used to give you confidence that the messages you received came from the original recipient and remained untouched in propagation. Messages are distributed over the preexisting Shadow P2P network, and a copy of each encrypted message is stored on each node for a period of 48 hours.
+			</p>
+			<div class="message">
+				Read more &mdash; <a href="http://doc.shadowproject.io/#encrypted-messaging">ShadowChat in Project Docs</a>
+			</div>
+
+			<h2>ShadowMarket</h2>
+
+			<h3>Aplha private testing</h3>
+			<p>
+				More info coming soon.
+			</p>
+
+			<h3>Beta public testing</h3>
+			<p>
+				More info coming soon.
+			</p>
+
+			<h3>Demo</h3>
+			<p>
+				Video coming soon.
+			</p>
+
+			<h3>Roadmap</h3>
+			<div class="message">
+				See &mdash; <a href="roadmap">ShadowProject Roadmaps</a>
+			</div>
+
+		</div><!-- #content -->
+
+
+	</div>
+</div>
+
+
+<?php include "_footer.php" ?>

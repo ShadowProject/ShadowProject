@@ -236,7 +236,7 @@ iframe {
 .text-center {
   text-align: center; }
 
-.tfx, .button, button, a {
+.tfx, .button, button, form input, form textarea, a {
   -webkit-transition: all 0.3s;
   transition: all 0.3s; }
 
@@ -365,6 +365,10 @@ h2 {
   color: #E2213D;
   text-transform: uppercase;
   margin-top: 3rem; }
+  h2:first-of-type {
+    margin-top: 0; }
+  h2 + h3 {
+    margin-top: 1rem; }
 
 h3 {
   font-size: 1.3rem;
@@ -403,8 +407,16 @@ code {
   border-radius: 3px;
   padding: 0.1rem 0.5rem; }
 
+blockquote {
+  font-family: "OpenSansItalic", sans-serif;
+  color: #626274;
+  margin: 1.7rem 0px 1.7rem 1rem;
+  padding-left: 2rem;
+  border-left: 2px solid #DFDFE6; }
+
 table {
-  margin: 1.5rem 0 2.5rem; }
+  margin: 1.5rem 0 2.5rem;
+  width: 100%; }
   table tr th {
     font-family: "OpenSansBold", sans-serif;
     font-weight: normal; }
@@ -416,6 +428,19 @@ table {
     border-top: 1px solid #DFDFE6; }
   table tr:nth-child(2n+1) th, table tr:nth-child(2n+1) td {
     background: #fcfcfd; }
+
+abbr[title] {
+  text-decoration: none;
+  border-bottom: 1px dotted #999; }
+
+dl {
+  margin: 0 0 2.4rem; }
+  dl dt {
+    font-family: "OpenSansBold", sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 0.3rem; }
+  dl dd {
+    margin-left: 1.5rem; }
 
 #content ul {
   margin: 0 0 1.5rem;
@@ -473,6 +498,9 @@ table {
       border: 0;
       border-left: 1px solid #DFDFE6;
       padding: 4rem 0 5.5rem 7rem; } }
+  #content.single-column {
+    border: 0;
+    padding-left: 0; }
 
 #sidebar {
   padding: 3rem 0; }
@@ -492,12 +520,35 @@ table {
       color: #1C1C21;
       line-height: 1.5;
       border: none; }
-      #sidebar ul.nav li a:hover {
-        color: #1C1C21; }
       #sidebar ul.nav li a.active {
         font-family: "LatoHeavy", sans-serif; }
-    #sidebar ul.nav:hover a {
+    #sidebar ul.nav:hover a:not(.active) {
       color: #6e6e82; }
+      #sidebar ul.nav:hover a:not(.active):hover {
+        color: #1C1C21; }
+  #sidebar .part {
+    margin: 3rem 0 0; }
+    #sidebar .part .donate.button {
+      margin-left: 0.2rem;
+      padding: 0.25rem 0.75rem;
+      border-radius: 50%;
+      border-width: 2px; }
+      #sidebar .part .donate.button.btc:hover {
+        background: #F7931A;
+        border-color: #d77907;
+        color: #fff; }
+      #sidebar .part .donate.button.sdc:hover {
+        background: #E2213D;
+        border-color: #b8182f;
+        color: #fff; }
+      #sidebar .part .donate.button i.ico {
+        margin: 0; }
+    #sidebar .part .donate.desc {
+      text-transform: uppercase;
+      font-size: 0.9rem;
+      color: #BABAC7;
+      display: inline-block;
+      margin-right: 0.5rem; }
 
 #footer {
   border-top: 1px solid #DFDFE6;
@@ -523,6 +574,17 @@ table {
   margin: 0.5rem 0; }
   .box.wallet {
     text-align: center; }
+    .box.wallet .os {
+      font-family: "LatoHeavy";
+      font-weight: normal;
+      font-size: 1.3rem;
+      margin: 1.7rem 0; }
+      .box.wallet .os .ico {
+        width: 1.5rem;
+        height: auto;
+        margin-right: 0.7rem;
+        position: relative;
+        top: 2px; }
     .box.wallet .button {
       color: #1C1C21;
       width: 100%;
@@ -541,11 +603,47 @@ table {
         .box.wallet .button.split:last-child {
           border-right: 0; }
 
+.message {
+  margin: 1.5rem 0 2rem;
+  padding: 1rem 1.7rem;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(186, 186, 199, 0.4); }
+  .message.alert {
+    border-right: 3px solid #E2213D; }
+
+.label {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  background: #DFDFE6;
+  border-radius: 3px;
+  padding: 0.1rem 0.6rem;
+  margin: 0 0.5rem; }
+
 #content ul.block-grid-3 {
   margin-left: -0.7rem;
   margin-right: -0.7rem; }
   #content ul.block-grid-3 li::before {
     content: ""; }
+
+form input, form textarea {
+  border: 0;
+  border-bottom: 1px solid #DFDFE6;
+  border-radius: none;
+  padding: 1rem 1.3rem;
+  margin-bottom: 1rem; }
+  form input:hover, form textarea:hover {
+    border-color: #c2c2d0; }
+  form input:focus, form textarea:focus {
+    border-color: #E2213D; }
+
+form.contact {
+  width: 100%;
+  max-width: 34rem; }
+  form.contact .button[type="submit"] {
+    max-width: 13rem;
+    padding: 1.2rem 1rem 1rem;
+    margin-top: 1rem;
+    text-transform: uppercase; }
 
 .video-container {
   width: 100%;
@@ -566,17 +664,26 @@ table {
   border-bottom: 3px solid #a11529;
   margin-bottom: 1rem;
   font-family: "LatoHeavy";
-  font-weight: normal; }
+  font-weight: normal;
+  text-transform: uppercase; }
   .button span, button span {
     font-family: "Lato";
     font-weight: normal; }
   .button .ico, button .ico {
-    display: inline-block;
-    width: 1.25rem;
-    height: 1.25rem;
-    margin-right: 0.6rem;
+    margin-right: 0.4rem;
+    font-size: 1rem;
+    line-height: 1;
     position: relative;
-    top: 3px; }
+    top: 2px; }
   .button:hover, button:hover {
     background: #c61a33;
     border-bottom: 3px solid #740f1e; }
+  .button.secondary, button.secondary {
+    background: #DFDFE6;
+    border-color: #b4b4c4; }
+    .button.secondary:hover, button.secondary:hover {
+      background: #cbcbd6;
+      border-color: #9797ae; }
+  .button.small, button.small {
+    padding: 0.7rem 1.4rem 0.5rem;
+    font-size: 0.95rem; }

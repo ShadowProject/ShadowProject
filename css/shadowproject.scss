@@ -33,6 +33,8 @@ h1 {
 h2 {
   font-size: 1.5rem; color: $red; text-transform: uppercase;
   margin-top: 3rem;
+  &:first-of-type { margin-top: 0; }
+  & + h3 { margin-top: 1rem; }
 }
 h3 { font-size: 1.3rem; margin-top: 3rem; }
 h4 { font-size: 1.15rem; margin-top: 2rem; }
@@ -56,8 +58,14 @@ code {
   background: #fff; border-radius: 3px;
   padding: 0.1rem 0.5rem;
 }
+blockquote {
+  font-family: "OpenSansItalic", sans-serif; color: lighten($black, 30%);
+  margin: 1.7rem 0px 1.7rem 1rem; padding-left: 2rem;
+  border-left: 2px solid $lightgrey;
+}
 table {
   margin: 1.5rem 0 2.5rem;
+  width: 100%;
   tr {
     th { font-family: "OpenSansBold", sans-serif; font-weight: normal; }
     th, td {
@@ -72,6 +80,13 @@ table {
       th, td { background: lighten($bg, 1.7%); }
     }
   }
+}
+abbr[title] { text-decoration: none; border-bottom: 1px dotted #999; }
+
+dl {
+  margin: 0 0 2.4rem;
+  dt { font-family: "OpenSansBold", sans-serif; text-transform: uppercase; margin-bottom: 0.3rem; }
+  dd { margin-left: 1.5rem; }
 }
 
 // content styling
@@ -120,6 +135,8 @@ table {
     border: 0; border-left: 1px solid $lightgrey;
     padding: 4rem 0 5.5rem 7rem;
   }
+  // Single-column pages (KTHXBYE page for contact form)
+  &.single-column { border: 0; padding-left: 0; }
 }
 
 
@@ -138,12 +155,31 @@ table {
         font-family: "Lato", sans-serif; text-transform: uppercase;
         color: $black; line-height: 1.5;
         border: none;
-        &:hover { color: $black; }
         &.active { font-family: "LatoHeavy", sans-serif; }
       }
     }
     &:hover {
-      a { color: lighten($black, 35%); }
+      a:not(.active) {
+        color: lighten($black, 35%);
+        &:hover { color: $black; }
+      }
+    }
+  }
+  // stuff in sidebar
+  .part {
+    margin: 3rem 0 0;
+    .donate {
+      &.button {
+        margin-left: 0.2rem; padding: 0.25rem 0.75rem;
+        border-radius: 50%; border-width: 2px;
+        &.btc:hover { background: #F7931A; border-color: darken(#F7931A, 10%); color: #fff; }
+        &.sdc:hover { background: $red; border-color: darken($red, 10%); color: #fff; }
+        i.ico { margin: 0; }
+      }
+      &.desc {
+        text-transform: uppercase; font-size: 0.9rem; color: $grey;
+        display: inline-block; margin-right: 0.5rem;
+      }
     }
   }
 }
@@ -174,6 +210,14 @@ table {
   &.wallet {
     @extend .clearfix;
     text-align: center;
+    .os {
+      font-family: "LatoHeavy"; font-weight: normal; font-size: 1.3rem;
+      margin: 1.7rem 0;
+      .ico {
+        width: 1.5rem; height: auto; margin-right: 0.7rem;
+        position: relative; top: 2px;
+      }
+    }
     .button {
       color: $black;
       width: 100%; float: left; margin: 0 0 -0.5rem;
@@ -189,9 +233,40 @@ table {
   }
 }
 
+// general messages - info boxes, alerts, warnings etc..
+.message {
+  margin: 1.5rem 0 2rem; padding: 1rem 1.7rem;
+  background: #fff; box-shadow: 0 2px 4px rgba($grey, 0.4);
+  &.alert { border-right: 3px solid $red; }
+}
+
+.label {
+  font-size: 0.8rem; text-transform: uppercase;
+  background: $lightgrey; border-radius: 3px;
+  padding: 0.1rem 0.6rem; margin: 0 0.5rem;
+}
+
 #content ul.block-grid-3 {
   margin-left: -$block-grid-spacing; margin-right: -$block-grid-spacing;
   li::before { content: ""; }
+}
+
+// forms
+form {
+  input, textarea {
+    @extend .tfx;
+    border: 0; border-bottom: 1px solid $lightgrey; border-radius: none;
+    padding: 1rem 1.3rem; margin-bottom: 1rem;
+    &:hover { border-color: darken($lightgrey, 10%); }
+    &:focus { border-color: $red; }
+  }
+  &.contact {
+    width: 100%; max-width: 34rem;
+    .button[type="submit"] {
+      max-width: 13rem; padding: 1.2rem 1rem 1rem; margin-top: 1rem;
+      text-transform: uppercase;
+    }
+  }
 }
 
 // responsive video embeds from Youtube
@@ -208,14 +283,25 @@ table {
 .button, button {
   border-radius: 0; background: $red; border-bottom: 3px solid darken($red, 15%);
   margin-bottom: 1rem;
-  font-family: "LatoHeavy"; font-weight: normal;
+  font-family: "LatoHeavy"; font-weight: normal; text-transform: uppercase;
   span { font-family: "Lato"; font-weight: normal; }
   .ico {
-    //color: $black;
-    display: inline-block; width: 1.25rem; height: 1.25rem; margin-right: 0.6rem;
-    position: relative; top: 3px;
+    margin-right: 0.4rem; font-size: 1rem; line-height: 1;
+    position: relative; top: 2px;
   }
   &:hover {
     background: darken($red, 7%); border-bottom: 3px solid darken($red, 25%);
+  }
+  // variants
+  &.secondary {
+    background: $lightgrey; border-color: darken($lightgrey, 15%);
+    &:hover {
+      background: darken($lightgrey, 7%); border-color: darken($lightgrey, 25%);
+    }
+  }
+  // sizes
+  &.small {
+    padding: 0.7rem 1.4rem 0.5rem;
+    font-size: 0.95rem;
   }
 }

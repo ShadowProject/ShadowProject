@@ -1,35 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<title>Bug Bounties &bull; Shadow Project</title>
-	<link href="favicon.ico" rel="icon" />
-	<!-- Open:Graph | http://ogp.me -->
-	<meta property="og:title" content="Bug Bounties &bull; Shadow Project" />
-	<meta property="og:description" content="Similar to the bounties offered by Mozilla and Google, Shadow bug bounties provide an opportunity for people who find bugs to be compensated." />
-	<meta property="og:type" content="website" />
-	<meta property="og:url" content="http://shadowproject.io/bug-bounties" />
-	<meta property="og:image" content="http://" />
+<?php include "_head.php" ?>
 
-	<link rel="stylesheet" href="css/shadowproject.nested.css">
+	<title>Bug Bounties &bull; Shadow Project</title>
+	<meta property="og:title" content="Bug Bounties &bull; Shadow Project" />
+	<meta property="og:description" content="According to Linus’ Law, “given enough eyeballs, all bugs are shallow”." />
+	<meta property="og:url" content="http://shadowproject.io/bug-bounties" />
 </head>
 <body>
 
 
-<div id="header">
-	<div class="row">
-		<div class="column">
-			<div class="logo">
-				<span class="logotype"><a href="//shadowproject.io">
-					<i class="ico cc-SDC-alt"></i>Shadow<span class="red">Project</span><span class="grey">.io</span>
-				</a></span>
-			</div>
-		</div>
-	</div>
-</div><!-- #header -->
-
+<?php include "_header.php" ?>
 
 
 <div class="row">
@@ -38,14 +17,18 @@
 
 		<div id="sidebar">
 			<ul class="nav">
-				<li><a href="/">Overview</a></li>
+				<li><a href="introduction">Introduction</a></li>
+				<li><a href="getting-started">Getting started</a></li>
+				<li><a href="features">Features</a></li>
+				<li><a href="documentation">Documentation</a></li>
+				<li><a href="development">Development</a></li>
+				<li><a href="roadmap">Roadmap</a></li>
 				<li><a class="active" href="bug-bounties">Bug Bounties</a></li>
-				<li><a href="links">Links</a></li>
+				<li><a href="community">Community</a></li>
 				<li><a href="faq">FAQ</a></li>
-				<li><a href="team">Team</a></li>
-				<li><a href="get-involved">Get Involved</a></li>
-				<li><a href="https://github.com/ShadowProject/shadow/commits/master">GitHub Commits</a></li>
+				<li><a href="contact">Contact</a></li>
 			</ul>
+			<?php include "_sidebar.php" ?>
 		</div><!-- #sidebar -->
 
 
@@ -54,7 +37,7 @@
 
 
 		<div id="content">
-			<h1>Shadow Bug &amp; Bounty Program</h1>
+			<h2>Shadow Bug &amp; Bounty Program</h2>
 			<p>
 				According to <a href="http://en.wikipedia.org/wiki/Linus">Linus’ Law</a>, <em>“given enough eyeballs, all bugs are shallow”</em>. That’s one of the reasons why Shadow’s source code is publicly available; but merely making the source code available doesn’t accomplish anything if people don’t read it!
 			</p>
@@ -115,9 +98,9 @@
 					<td>‘Harmless’ bugs, e.g. cosmetic errors</td>
 				</tr>
 			</table>
-			<p>
+			<div class="message">
 				<em>Note</em> &mdash; Bounties will be paid out for bugs found in the <a href="https://github.com/ShadowProject/shadow/tree/master">master branch of the official GitHub repositories</a>.
-			</p>
+			</div>
 		</div><!-- #content -->
 
 
@@ -125,27 +108,4 @@
 </div>
 
 
-
-<div id="footer">
-	<div class="row">
-		<div class="medium-5 columns">
-			<div class="copyright">
-				<p>&copy; 2015&ensp;<a href="http://shadowproject.io">shadowproject.io</a><p>
-			</div>
-		</div>
-		<div class="medium-7 columns">
-			<div class="links">
-				<p>
-					<a href="get-involved">Contribute</a>&emsp;&bull;&emsp;<a href="legal">Legal</a>&emsp;&bull;&emsp;<a href="privacy">Privacy</a>
-				</p>
-			</div>
-		</div>
-	</div>
-</div><!-- #footer -->
-
-
-
-	<script src="js/jquery-1.11.2.min.js"></script>
-	<script src="js/shadowproject.js"></script>
-</body>
-</html>
+<?php include "_footer.php" ?>
