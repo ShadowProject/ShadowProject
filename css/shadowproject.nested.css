@@ -2,7 +2,7 @@
 @import url(normalize.css);
 /*! BRICKst v1.0.0 | MIT License | allienworks.net */
 @import url(fonts.css);
-@import url(cryptocoins.css);
+@import url(shadowicons.css);
 * {
   box-sizing: border-box; }
 
@@ -420,6 +420,20 @@ table {
   table tr th {
     font-family: "OpenSansBold", sans-serif;
     font-weight: normal; }
+    table tr th.status {
+      width: 3.2rem; }
+    table tr th .icon {
+      text-align: center;
+      color: #BABAC7;
+      font-size: 1.3rem;
+      display: inline;
+      position: relative;
+      top: 2px;
+      left: 0.7rem; }
+      table tr th .icon.ico-current {
+        color: #1C1C21; }
+      table tr th .icon.ico-done {
+        color: #E2213D; }
   table tr th, table tr td {
     padding: 0.5rem 0.7rem;
     vertical-align: top;
@@ -482,8 +496,11 @@ dl {
         color: #1C1C21;
         border: none; }
       #header .logo .logotype i.ico {
-        margin-right: 1rem;
-        color: #E2213D; }
+        color: #E2213D;
+        font-size: 2.2rem;
+        position: relative;
+        top: 4px;
+        margin-right: 1.1rem; }
       #header .logo .logotype .red {
         color: #E2213D; }
       #header .logo .logotype .grey {
@@ -579,12 +596,11 @@ dl {
       font-weight: normal;
       font-size: 1.3rem;
       margin: 1.7rem 0; }
-      .box.wallet .os .ico {
-        width: 1.5rem;
-        height: auto;
+      .box.wallet .os .icon {
+        font-size: 1.4rem;
         margin-right: 0.7rem;
         position: relative;
-        top: 2px; }
+        top: 1px; }
     .box.wallet .button {
       color: #1C1C21;
       width: 100%;

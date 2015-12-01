@@ -1,6 +1,6 @@
 @import "brickst";
 @import "fonts.css";
-@import "cryptocoins.css";
+@import "shadowicons.css";
 
 /*! ------ ShadowProject.io | Author @AllienWorks ------ */
 
@@ -67,7 +67,17 @@ table {
   margin: 1.5rem 0 2.5rem;
   width: 100%;
   tr {
-    th { font-family: "OpenSansBold", sans-serif; font-weight: normal; }
+    th {
+      font-family: "OpenSansBold", sans-serif; font-weight: normal;
+      &.status { width: 3.2rem; }
+      .icon {
+        text-align: center; color: $grey; font-size: 1.3rem;
+        display: inline;
+        position: relative; top: 2px; left: 0.7rem;
+        &.ico-current { color: $black; }
+        &.ico-done { color: $red; }
+      }
+    }
     th, td {
       padding: 0.5rem 0.7rem;
       vertical-align: top;
@@ -120,7 +130,11 @@ dl {
       font-size: 1.7rem; line-height: 1.6;
       margin: 0;
       a { font-family: "LatoHeavy", sans-serif; color: $black; border: none; }
-      i.ico { margin-right: 1rem; color: $red; }
+      i.ico {
+        color: #E2213D; font-size: 2.2rem;
+        position: relative; top: 4px;
+        margin-right: 1.1rem;
+      }
       .red { color: $red; }
       .grey { color: $grey; font-family: "Lato", sans-serif; }
     }
@@ -207,15 +221,17 @@ dl {
 .box {
   background: #fff; box-shadow: 0 2px 4px rgba($grey, 0.4);
   padding: 0.5rem 0; margin: 0.5rem 0;
+  // Wallet downloads
   &.wallet {
     @extend .clearfix;
     text-align: center;
     .os {
       font-family: "LatoHeavy"; font-weight: normal; font-size: 1.3rem;
       margin: 1.7rem 0;
-      .ico {
-        width: 1.5rem; height: auto; margin-right: 0.7rem;
-        position: relative; top: 2px;
+      .icon {
+        font-size: 1.4rem;
+        margin-right: 0.7rem;
+        position: relative; top: 1px;
       }
     }
     .button {
