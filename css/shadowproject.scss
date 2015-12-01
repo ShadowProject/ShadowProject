@@ -208,6 +208,14 @@ dl {
     border: none;
     &:hover { color: darken($grey, 10%); }
   }
+  .icon {
+    @extend .tfx;
+    font-size: 1.3rem; color: $grey;
+    margin-left: 0.25rem;
+    position: relative; top: 2.2px;
+    &:hover { color: $red; }
+    &.ico-github { margin-left: 0; }
+  }
   @include respond-to(medium) {
     text-align: left;
     .links { text-align: right; }
