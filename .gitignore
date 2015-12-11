@@ -1,0 +1,6 @@
+
+# NPM node_modules
+node_modules/
+
+# Sublime Project files
+ShadowProject.sublime-*
