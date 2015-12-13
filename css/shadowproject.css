@@ -518,6 +518,18 @@ dl {
   #content.single-column {
     border: 0;
     padding-left: 0; }
+  #content .edit-me {
+    font-size: 0.8rem;
+    color: #9e9eb0;
+    border-top: 1px dashed #DFDFE6;
+    margin: 6rem 0 -5.5rem -7rem;
+    padding: 2rem 0 1.3rem 7rem; }
+    #content .edit-me a.button {
+      font-size: 0.85rem;
+      font-family: "Lato", sans-serif;
+      padding: 0.2rem 1rem;
+      margin-right: 1rem;
+      border-width: 1px; }
 
 #sidebar {
   padding: 3rem 0; }

@@ -151,6 +151,17 @@ dl {
   }
   // Single-column pages (KTHXBYE page for contact form)
   &.single-column { border: 0; padding-left: 0; }
+  // Edit-me message
+  .edit-me {
+    font-size: 0.8rem; color: darken($grey, 10%);
+    border-top: 1px dashed $lightgrey;
+    margin: 6rem 0 -5.5rem -7rem; padding: 2rem 0 1.3rem 7rem;
+    a.button {
+      font-size: 0.85rem; font-family: "Lato", sans-serif;
+      padding: 0.2rem 1rem; margin-right: 1rem;
+      border-width: 1px;
+    }
+  }
 }
 
 
