@@ -340,3 +340,12 @@ form {
     font-size: 0.95rem;
   }
 }
+
+
+// ------ PLUG-INS & JS ------ //
+
+a.anchorjs-link {
+  border: none;
+  color: $grey;
+  &:hover { border: none; color: $black; }
+}

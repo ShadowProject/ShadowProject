@@ -15,9 +15,6 @@ The Shadow Project is an open source project aiming to be the core of privacy, w
 ## Todo
 
 * tweak responsivity
-* contact form ([this one implemented](https://github.com/nfriedly/spam-free-php-contact-form))
-  - edit email in submit.php:7
-  - get rid of Contact
 * switch YouTube video embed for self-hosted via VideoJS
 * translations
 
@@ -27,10 +24,6 @@ The Shadow Project is an open source project aiming to be the core of privacy, w
 
 ### Styling and Graphics
 
-* icons for social websites in footer (also, GitHub)
-* add at least some images of crz' kickass designs (?)
-
-
 ### Missing content
 
 * Privacy
@@ -38,6 +31,5 @@ The Shadow Project is an open source project aiming to be the core of privacy, w
 
 ### Other
 
-* make headings/FAQs' titles #linkable
 * use minified CSS on production
 * print current version of wallet @ downloads

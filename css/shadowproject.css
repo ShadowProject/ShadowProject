@@ -725,3 +725,10 @@ form.contact {
   .button.small, button.small {
     padding: 0.7rem 1.4rem 0.5rem;
     font-size: 0.95rem; }
+
+a.anchorjs-link {
+  border: none;
+  color: #BABAC7; }
+  a.anchorjs-link:hover {
+    border: none;
+    color: #1C1C21; }
