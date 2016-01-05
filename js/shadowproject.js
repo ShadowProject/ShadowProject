@@ -11,7 +11,24 @@ function AnchorJS(A){"use strict";function t(A){o.options.icon=o.options.hasOwnP
 
 $( document ).ready(function() {
 
+
   // Anchor.js - add anchors to headings
   anchors.add('#content h1, #content h2, #content h3, #content h4, #content dt');
+
+
+  // JSON grabbin' of latest Wallet version
+  function latestVersion() {
+    var url = 'http://shadow.cash/downloads/latest/version/callback=?',
+        container = document.getElementById('latest-version');
+
+    $.get(url, function(data){
+      container.innerHTML = data.latest_version;
+    });
+  }
+  latestVersion();
+
+
+  // ...
+
   
 });
