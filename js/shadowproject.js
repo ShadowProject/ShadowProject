@@ -25,7 +25,10 @@ $( document ).ready(function() {
       container.innerHTML = data.latest_version;
     });
   }
-  latestVersion();
+  
+  if($('#latest-version').length > 0) {
+    latestVersion();
+  };
 
 
   // ...
