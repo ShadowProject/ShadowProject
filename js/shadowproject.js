@@ -31,7 +31,21 @@ $( document ).ready(function() {
   };
 
 
-  // ...
+  // Intro video responsive scaling
+  function scaleVideo() {
+    var videoW = $('.video-js').width(), // get video's width
+        videoH = videoW / 16 * 9; // calculate height by 16:9 ratio
+
+    $('.video-container').css({
+      "height": videoH + "px",
+    });
+  }
+
+  scaleVideo();
+
+  $(window).resize(function() {
+    scaleVideo();
+  });
 
   
 });

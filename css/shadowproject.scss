@@ -307,12 +307,9 @@ form {
 
 // responsive video embeds from Youtube
 .video-container {
-  width: 100%; height: 0; overflow: hidden;
-  padding-bottom: 56.23%; margin: 3rem 0 4rem;
-  position: relative;
-  iframe, object, embed, video {
+  width: 100%; margin: 2.5rem 0;
+  .video-js {
     width: 100%; height: 100%;
-    position: absolute; top: 0;
   }
 }
 
