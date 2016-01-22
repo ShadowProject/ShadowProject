@@ -15,7 +15,6 @@ The Shadow Project is an open source project aiming to be the core of privacy, w
 ## Todo
 
 * tweak responsivity
-* switch YouTube video embed for self-hosted via VideoJS
 * translations
 
 ### Markup

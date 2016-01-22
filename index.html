@@ -69,7 +69,13 @@
 				The Shadow Project is an open source project aiming to be the core of privacy, where people will build decentralized applications.
 			</p>
 			<div class="video-container">
-				<iframe src="https://www.youtube-nocookie.com/embed/i-xnh7NFCA8?rel=0&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
+				<video id="my-video" class="video-js" controls preload="auto" poster="video/shadow-intro_poster.jpg" data-setup="{}">
+			    <source src="video/shadow-intro.mp4" type='video/mp4'>
+			    <source src="video/shadow-intro.webm" type='video/webm'>
+			    <p class="vjs-no-js">
+			      To view this video please enable JavaScript, and consider upgrading to a web browser that supports HTML5 video
+			    </p>
+			  </video>
 			</div>
 
 			<h2>ShadowCash Specs.</h2>
@@ -140,6 +146,7 @@
 
 
 	<script src="js/jquery-1.11.2.min.js"></script>
+	<script src="js/video.js"></script>
 	<script src="js/shadowproject.js"></script>
 </body>
 </html>

@@ -5,6 +5,10 @@ var sass = require('gulp-sass');
 
 // ---- Tasks ---- //
 
+gulp.task('default', ['watch'], function (){
+  console.log('-- Compiling Sass files automatically');
+})
+
 gulp.task('sass', function(){
   return gulp.src('css/shadowproject.scss')
     .pipe(sass()) // Converts Sass to CSS with gulp-sass
