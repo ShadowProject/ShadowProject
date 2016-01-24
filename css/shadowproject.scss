@@ -305,14 +305,6 @@ form {
   }
 }
 
-// responsive video embeds from Youtube
-.video-container {
-  width: 100%; margin: 2.5rem 0;
-  .video-js {
-    width: 100%; height: 100%;
-  }
-}
-
 .button, button {
   border-radius: 0; background: $red; border-bottom: 3px solid darken($red, 15%);
   margin-bottom: 1rem;
@@ -342,8 +334,47 @@ form {
 
 // ------ PLUG-INS & JS ------ //
 
+// Anchor.js
 a.anchorjs-link {
   border: none;
   color: $grey;
   &:hover { border: none; color: $black; }
+}
+
+
+// Video.js
+.video-container {
+  width: 100%; margin: 2.5rem 0;
+  .video-js {
+    width: 100%; height: 100%;
+    &:hover {
+      .vjs-big-play-button { background-color: rgba($red, 0.9); }
+    }
+    .vjs-big-play-button {
+      font-size: 5em; line-height: 1.8em;
+      width: 1.8em; height: 1.8em;
+      top: 50%; left: 50%; transform: translate(-50%, -50%);
+      border: none; border-radius: 50%;
+      background-color: rgba($black, 0.8);
+    }
+    .vjs-poster { box-shadow: 0 0 10rem #fff inset; }
+    .vjs-control-bar {
+      background: rgba($bg, 0.8);
+      color: $black;
+      button:hover {
+        border: none; background: none;
+        color: $red;
+      }
+      .vjs-progress-holder {
+        .vjs-play-progress {
+          background: $red;
+          &::before { color: $red; }
+        }
+      }
+      .vjs-volume-level {
+        background-color: $red;
+        &::before { color: $red; }
+      }
+    }
+  }
 }
